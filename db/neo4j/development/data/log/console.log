@@ -185,3 +185,23 @@ Detected incorrectly shut down database, performing recovery..
 22:44:36.788 [main] INFO  org.eclipse.jetty.server.Server - Started @26693ms
 2016-01-07 14:44:36.809+0000 INFO  [API] Server started on: http://localhost:8000/
 2016-01-07 14:44:36.810+0000 INFO  [API] Remote interface ready and available at [http://localhost:8000/]
+2016-01-09 04:41:25.622+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+Detected incorrectly shut down database, performing recovery..
+2016-01-09 04:41:31.567+0000 INFO  [API] Successfully started database
+2016-01-09 04:41:31.597+0000 INFO  [API] Starting HTTP on port :8000 with 8 threads available
+23:41:31.767 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @6640ms
+2016-01-09 04:41:31.797+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2016-01-09 04:41:31.833+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+23:41:31.835 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+23:41:31.854 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@2a187010{/,null,AVAILABLE}
+23:41:31.894 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+23:41:31.917 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@7cb74b35{/webadmin,jar:file:/home/caugustin/Dropbox/NTHU/3rd%20Semester/Advanced%20Database/Datezilla/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+23:41:32.186 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@23da1e87{/db/manage,null,AVAILABLE}
+23:41:32.287 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3019bb66{/db/data,null,AVAILABLE}
+23:41:32.301 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+23:41:32.302 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@7eda2d3{/browser,jar:file:/home/caugustin/Dropbox/NTHU/3rd%20Semester/Advanced%20Database/Datezilla/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+23:41:32.399 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@58c548c3{/,null,AVAILABLE}
+23:41:32.409 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6c7845a6{HTTP/1.1}{localhost:8000}
+23:41:32.409 [main] INFO  org.eclipse.jetty.server.Server - Started @7287ms
+2016-01-09 04:41:32.410+0000 INFO  [API] Server started on: http://localhost:8000/
+2016-01-09 04:41:32.410+0000 INFO  [API] Remote interface ready and available at [http://localhost:8000/]
